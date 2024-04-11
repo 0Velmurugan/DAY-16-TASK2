@@ -6,11 +6,11 @@ function countdownFrom(start, callback) {
       } else {
         callback();
       }
-    }, 1000);
+    }, 10);
   }
   
   countdownFrom(10, function () {
     setTimeout(function () {
       console.log("Happy Independence Day");
-    }, 1000);
+    }, 10);
   });
